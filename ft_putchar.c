@@ -4,11 +4,3 @@ void    ft_putchar(char c)
 {
     write(1, &c, 1);
 }
-
-int main(void)
-{
-    char a = '0';
-
-    ft_putchar(a);
-    return (0);
-}

@@ -26,12 +26,3 @@ void    ft_putnbr(int nb)
     while (i > 0)
         write(1, &arr[--i], 1);
 }
-
-int main(void)
-{
-    ft_putnbr(21474892);
-    write(1, "\n", 1);
-    ft_putnbr(-21474892);
-
-    return (0);
-}
